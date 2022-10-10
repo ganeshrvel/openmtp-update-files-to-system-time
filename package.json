@@ -1,0 +1,18 @@
+{
+  "name": "openmtp-update-files-to-system-time",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "change-file-time": "^0.1.0",
+    "dayjs": "^1.11.5",
+    "dayjs-with-plugins": "^1.0.2",
+    "fs-extra": "^10.1.0",
+    "glob": "^8.0.3",
+    "junk": "^4.0.0",
+    "path": "^0.12.7",
+    "process": "^0.11.10",
+    "zx": "^7.1.1"
+  },
+  "dependencies": {}
+}
