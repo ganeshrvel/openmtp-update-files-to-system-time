@@ -9,18 +9,20 @@ It will read the exif information in an image or video and update the creation a
 
 on macos run:
 ```shell
- npm install -g zx
- brew update
- brew install exiftool
+  cd /to/some/path
+  git clone https://github.com/ganeshrvel/openmtp-update-files-to-system-time
+  
+  npm install -g zx
+  brew update
+  brew install exiftool
  
  ```
 
 export these variables this before running the script
 ```shell
-  export LC_CTYPE=en_US.UTF-8
-  export LC_ALL=en_US.UTF-8
+  export LC_CTYPE=en_US.UTF-8 && export LC_ALL=en_US.UTF-8
 ```
 
 ```shell
-zx ./images_videos.mjs
+  zx ./images_videos.mjs
 ```
