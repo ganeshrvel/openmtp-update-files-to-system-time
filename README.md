@@ -1,5 +1,5 @@
-### fix creation and modification date/time for files transferred to macbook using OpenMTP
-It will read the exif information in an image or video and update the creation and modification date/time for files transferred to macbook using OpenMTP
+### Fix creation and modification date/time for files transferred to macbook using OpenMTP
+It will read the exif information of images or videos and update the creation and modification date/time of those file.
 
 #### Requirement: nodejs 16+
 
