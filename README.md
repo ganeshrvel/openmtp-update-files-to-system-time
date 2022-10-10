@@ -1,9 +1,9 @@
 ### fix creation and modification date/time for files transferred to macbook using OpenMTP
 It will read the exif information in an image or video and update the creation and modification date/time for files transferred to macbook using OpenMTP
 
-### Requirement: nodejs 16+
+#### Requirement: nodejs 16+
 
-## WARNING: BACKUP your files before running this script
+### WARNING: BACKUP your files before running this script
  - To run the script goto images_videos.mjs and change the `camDir` to any path which contains images and videos.
  - This will only work for images and videos
 
